@@ -20,6 +20,10 @@
             android:name=".MainActivity"
             android:label="Doctor_Screen">
         </activity>
+        <activity
+            android:name=".Registration"
+            android:label="Registration Screen">
+        </activity>
     </application>
 
 </manifest>
