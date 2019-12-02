@@ -37,6 +37,29 @@
             android:name="com.example.dr_sounds.UserSelection"
             android:label="User selection Screen" >
         </activity>
+        <activity
+            android:name="com.example.dr_sounds.doctorpage"
+            android:label="Doctor dashboard" >
+        </activity>
+        <activity
+            android:name="com.example.dr_sounds.AddFamilyMem"
+            android:label="add family" >
+        </activity>
+        <activity
+            android:name="com.example.dr_sounds.AudioSearch"
+            android:label="audio page" >
+        </activity>
+        <activity
+            android:name="com.example.dr_sounds.Patient_login"
+            android:label="patient page" />
+        <activity
+            android:name="com.example.dr_sounds.prescription"
+            android:label="prescription page" >
+        </activity>
+        <activity
+            android:name="com.example.dr_sounds.EndScreen"
+            android:label="End Screen" >
+        </activity>
     </application>
 
 </manifest>

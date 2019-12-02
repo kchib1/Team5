@@ -1,6 +1,8 @@
 package com.example.dr_sounds;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -21,5 +23,10 @@ public class UserSelection extends AppCompatActivity {
         addUser = (TextView) findViewById(R.id.add_user);
         userImage = (ImageButton) findViewById(R.id.user_image1);
         addUserImage = (ImageButton) findViewById(R.id.add_user_image1);
+    }
+
+    public void addfamilymem(View v){
+        Intent intent = new Intent(UserSelection.this, AddFamilyMem.class);
+        startActivity(intent);
     }
 }
