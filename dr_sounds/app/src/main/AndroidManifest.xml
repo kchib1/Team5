@@ -28,6 +28,25 @@
             android:name=".UserSelection"
             android:label="User selection Screen">
         </activity>
+        <activity
+            android:name=".doctorpage"
+            android:label="Doctor dashboard">
+        </activity>
+        <activity android:name=".AddFamilyMem"
+            android:label="add family">
+        </activity>
+        <activity android:name=".AudioSearch"
+            android:label="audio page"
+            >
+        </activity>
+        <activity android:name=".Patient_login"
+            android:label="patient page"></activity>
+        <activity android:name=".prescription"
+            android:label="prescription page">
+        </activity>
+        <activity android:name=".EndScreen"
+            android:label="End Screen">
+        </activity>
     </application>
 
 </manifest>
