@@ -26,10 +26,14 @@ public class MainActivity extends AppCompatActivity {
         checker = (TextView) findViewById(R.id.checker);
     }
     public void initlogin(View v){
-        if(username.getText().toString() != "user" || password.getText().toString() != "pass"){
+        if(username.getText().toString().equals("user") && password.getText().toString().equals("pass")){
+            Intent intent = new Intent(MainActivity.this, UserSelection.class );
+            startActivity(intent);
+        }else{
             checker.setText("Wrong Credentials, Try Again");
             checker.setVisibility(View.VISIBLE);
         }
+
     }
 
 }
