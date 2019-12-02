@@ -24,6 +24,10 @@
             android:name=".Registration"
             android:label="Registration Screen">
         </activity>
+        <activity
+            android:name=".UserSelection"
+            android:label="User selection Screen">
+        </activity>
     </application>
 
 </manifest>
